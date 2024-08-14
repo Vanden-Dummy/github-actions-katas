@@ -25,9 +25,9 @@ jobs:
         with:
           name: code
           path: .
-        - name: run linting
-          uses: super-linter/super-linter/slim
-          env:
-            DEFAULT_BRANCH: main
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            DISABLE_ERRORS: true
+      - name: run linting
+        uses: super-linter/super-linter/slim
+        env:
+          DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DISABLE_ERRORS: true
