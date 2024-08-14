@@ -66,5 +66,5 @@ jobs:
         with:
           context: app
           push: true
-          tags: ghcr.io/vanden-dummy/micronaut-app:1.0-${{ github.sha }},ghcr.io/vanden-dummy/micronaut-app:latest
+          tags: ghcr.io/${{ github.actor }}/micronaut-app:1.0-${{ github.sha }},ghcr.io/${{ github.actor }}/micronaut-app:latest
 
