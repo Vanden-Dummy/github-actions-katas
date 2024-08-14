@@ -68,3 +68,5 @@ jobs:
           push: true
           tags: ghcr.io/${{ github.actor }}/micronaut-app:1.0-${{ github.sha }},ghcr.io/${{ github.actor }}/micronaut-app:latest
 
+
+
