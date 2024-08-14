@@ -1,4 +1,4 @@
-name: fuck this shit
+name: WORK
 on: [workflow_dispatch]
 jobs:
   call-workflow:
